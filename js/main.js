@@ -33,6 +33,20 @@ $( document ).ready(function() {
     //      3. Toggle visibility of all the elements within that parent with the class `details`.
     //      4. Change the text of the "view details" button to read "hide details" so the user
     //          understands they can hide the text again.
+$ ('.user-button').on('click', function(event) {
+     console.log(event);
+     var userInfo = $ ('.user-info');
+     var loginForm = $ ('#login-form');
+   //      1. When a user clicks the "login" button, hide the login
+   //      form elements on the page.
+     if (userInfo.is(':visible')) {
+         userInfo.fadeOut();
+         loginForm.show();
+     } else {
+       loginForm.fadeIn();
+       userInfo.hide();
+     }
+   });
 
     // TODO: Create a function that listens for clicks on the voting buttons and
     // looks at the `data-vote` attribute on each button to see what was voted for,
