@@ -1,35 +1,57 @@
+ /* ==========================================================================
+    Author's custom styles
+     ========================================================================== */
+  
+  /* Styles to hide content that should not be visible until the user takes an action. */
+    
+    nav {
+     padding-top: 20px;
+     padding-bottom: 10px;
+    }
+    
+   .jumbotron {
+    padding-top: 100px;
+    }
+     
+  .user-info {
+      display: none;
+  }
+ .details {
+      display: none;
+  }
+  
+ /* displays the double arrrow so javascript doesnt have to */
+   .btn-primary:after {
+    content: " \00bb"; 
+   }
+   
+   /* displays the double arrrow so javascript doesnt have to */
+   .btn-default:after {
+    content: " \00bb"; 
+   }
+   
+  /* Styles to make the page look OK. */
+  .form-control {
+       height: 25px;
+       height: 30px;
+  }
+ 
+    .jumbotron img {
+      margin: 0.5em;
+     width: 45%;
+     height: auto;
+ }
 
+    .highlights hr {
+     display: block;
+     clear: both;
+ }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+    .highlights img {
+     margin: 0.5em;
+     width: 25%;
+ }
 
-/* Styles to hide content that should not be visible until the user takes an action. */
-.user-info {
-    display: none;
-}
-.details {
-    display: none;
-}
-
-/* Styles to make the page look OK. */
-.form-control {
-    height: 25px;
-}
-.jumbotron img {
-    margin: 0.5em;
-    width: 45%;
-    height: auto;
-}
-.highlights hr {
-    display: block;
-    clear: both;
-}
-.highlights img {
-    margin: 0.5em;
-    width: 25%;
-}
-.voting .voting-buttons {
-    margin: 1em 0;
-}
-/* End of styles to make the page look OK. */
+    .voting .voting-buttons {
+     margin: 1em 0;
+ }
