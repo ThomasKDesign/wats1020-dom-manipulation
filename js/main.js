@@ -32,8 +32,8 @@
     //      3. Toggle visibility of all the elements within that parent with the class `details`.
     //      4. Change the text of the "view details" button to read "hide details" so the user
     //          understands they can hide the text again.
-<<<<<<< HEAD
-=======
+
+
 //$ ('.user-button').on('click', function(event) {
    //  console.log(event);
    //  var userInfo = $ ('.user-info');
@@ -53,7 +53,7 @@
     });
 
    
->>>>>>> gh-pages
+
 
     // TODO: Create a function that listens for clicks on the voting buttons and
     // looks at the `data-vote` attribute on each button to see what was voted for,
@@ -63,7 +63,7 @@
     //      3. Increment the counter for whichever vote talley is affected.
     //      4. Determine the respective percentages (out of 100) for each progress bar.
     //      5. Modify the `width` attribute on each progress bar to set the updated percentage.
-<<<<<<< HEAD
+
 	
 	
 	// allows call-to-action text to differ on any id-ed buttton 
@@ -131,8 +131,4 @@
       }	
     });
   });
-=======
 
-})
-}
->>>>>>> gh-pages
